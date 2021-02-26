@@ -6,7 +6,10 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plangrid/react-file-viewer.git"
+    "url": "git+https://github.com/dshanley/react-file-viewer.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "dev": "webpack -d --watch",
@@ -79,13 +82,13 @@
   },
   "dependencies": {
     "comma-separated-values": "^3.6.4",
-    "mammoth": "1.3.6",
-    "pdfjs-dist": "1.8.357",
+    "mammoth": "1.4.16",
+    "pdfjs-dist": "1.10",
     "prop-types": "^15.5.10",
-    "react-data-grid": "^5.0.5",
+    "react-data-grid": "6",
     "react-visibility-sensor": "^5.0.2",
     "three": "0.85.2",
-    "xlsx": "^0.10.1"
+    "xlsx": "0.16.9"
   },
   "peerDependencies": {
     "react": "^16.6.3",
